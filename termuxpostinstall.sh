@@ -37,7 +37,7 @@ softwares=(
 	android-tools
 )
 
-verificar_updates() {
+verificar_updates(){
  pkg update && pkg upgrade
  clear
  echo "Permita o acesso ao armazenamento."
