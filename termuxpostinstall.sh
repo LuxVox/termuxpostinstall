@@ -1,3 +1,4 @@
+#!/bin/bash
 # Array com o nome dos softwares que serão instalados abaixo.
 softwares=(
 	x11-repo
@@ -36,7 +37,7 @@ softwares=(
 	android-tools
 )
 
-verificar_updates(){
+verificar_updates() {
  pkg update && pkg upgrade
  clear
  echo "Permita o acesso ao armazenamento."
@@ -81,10 +82,9 @@ customizacao_do_terminal(){
 }
 
 
-verificar_updates()
-instalar_programas()
-instalar_programas_pom()
-instalar_fontes()
-customizacao_do_terminal()
-
+verificar_updates
+instalar_programas
+instalar_programas_pom
+instalar_fontes
+customizacao_do_terminal
 
