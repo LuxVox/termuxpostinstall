@@ -3,7 +3,7 @@
 softwares=(
 	x11-repo
 	unstable-repo
-	python
+	python 
 	python2
 	golang
 	ruby
@@ -65,6 +65,7 @@ instalar_programas_pom(){
 	# Programas que serão instalados por outros meios:
 	gem install lolcat
 	pip install youtube-dl
+	pip install pywal
 }
 
 
