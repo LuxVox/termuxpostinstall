@@ -82,7 +82,7 @@ customizacao_do_terminal(){
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 	echo "Editando o zshrc..."
 	cd ~
-	echo -e "cd ~/storage/shared\nclear\nneofetch | lolcat\nalias ls=lsd" >> .zshrc
+	echo -e "cd ~\nclear\nneofetch --ascii_distro postmarketos_small | lolcat\nalias ls=lsd" >> .zshrc
 	rm -rf /data/data/com.termux/files/usr/etc/motd # Remove a mensagem inicial.
 	exit
 }
