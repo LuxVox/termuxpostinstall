@@ -3,18 +3,21 @@
 softwares=(
 	x11-repo
 	unstable-repo
-	ruby
 	python
 	python2
+	golang
+	ruby
+	perl
 	nodejs
+	php
+	php-sqlite
 	git
 	wget
 	curl
+	openssl
 	nano
 	vim
-	golang
 	yarn
-	php
 	fakeroot
 	make
 	dpkg
@@ -36,6 +39,8 @@ softwares=(
 	lynx
 	rtorrent
 	android-tools
+	tmux
+	apache2
 )
 
 verificar_updates(){
