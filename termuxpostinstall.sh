@@ -21,6 +21,7 @@ softwares=(
 	p7zip
 	p7zip-plugins
 	unrar
+	unzip
 	tar
 	rsync
 	neofetch
