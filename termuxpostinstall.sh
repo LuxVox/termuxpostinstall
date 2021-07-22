@@ -41,6 +41,9 @@ softwares=(
 	android-tools
 	tmux
 	apache2
+	htop
+	cmatrix
+	cava
 )
 
 verificar_updates(){
@@ -65,7 +68,6 @@ instalar_programas_pom(){
 	# Programas que serão instalados por outros meios:
 	gem install lolcat
 	pip install youtube-dl
-	pip install pywal
 }
 
 
