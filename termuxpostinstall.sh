@@ -72,8 +72,7 @@ instalar_programas_pom(){
 instalar_fontes(){
 	# Instala a fonte que estiver no diretório Fonts/
 	echo "Instalando fontes..."
-	cd Fonts/
-	mv font.ttf ~/.termux/font.ttf
+	mv ./Font/font.ttf ~/.termux/
 	termux-reload-settings
 	clear
 }
